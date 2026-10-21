@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment files (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+# Build output and coverage
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Local test helpers
+cookies.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
